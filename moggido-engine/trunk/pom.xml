@@ -1,41 +1,62 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  <modelVersion>4.0.0</modelVersion>
-  <groupId>com.moggido</groupId>
-  <artifactId>moggido-engine</artifactId>
-  <packaging>jar</packaging>
-  <version>1.0.0-SNAPSHOT</version>
-  <name>moggido-engine</name>
-  <url>http://www.moggido.com</url>
-  <developers>
-  	<developer>
-  		<id>mricardo</id>
-  		<name>Miguel Correia Ricardo</name>
-  		<email>miguelcricardo@gmail.com</email>
-  		<organization>moggido</organization>
-  		<organizationUrl>http://www.moggido.com</organizationUrl>
-  		<roles>
-  			<role>developer</role>
-  		</roles>
-  	</developer>
-  	<developer>
-  		<id>ccadete</id>
-  		<name>Carlos Cadete</name>
-  		<email>carloscadete@gmail.com</email>
-  		<organization>moggido</organization>
-  		<organizationUrl>http://www.moggido.com</organizationUrl>
-  		<roles>
-  			<role>developer</role>
-  		</roles>
-  	</developer>
-  </developers>
-  <scm>
-  	<connection>scm:svn:https://moggido.googlecode.com/svn/moggido-engine/trunk</connection>
-  	<developerConnection>scm:svn:https://moggido.googlecode.com/svn/moggido-engine/trunk</developerConnection>
-  	<url>https://moggido.googlecode.com/svn/moggido-engine/trunk</url>
-  </scm>
-  <organization>
-  	<name>moggido</name>
-  	<url>http://www.moggido.com</url>
-  </organization>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>com.moggido</groupId>
+	<artifactId>moggido-engine</artifactId>
+	<packaging>jar</packaging>
+	<version>1.0.0-SNAPSHOT</version>
+	<name>moggido-engine</name>
+	<url>http://www.moggido.com</url>
+	<developers>
+		<developer>
+			<id>mricardo</id>
+			<name>Miguel Correia Ricardo</name>
+			<email>miguelcricardo@gmail.com</email>
+			<organization>moggido</organization>
+			<organizationUrl>http://www.moggido.com</organizationUrl>
+			<roles>
+				<role>developer</role>
+			</roles>
+		</developer>
+		<developer>
+			<id>ccadete</id>
+			<name>Carlos Cadete</name>
+			<email>carloscadete@gmail.com</email>
+			<organization>moggido</organization>
+			<organizationUrl>http://www.moggido.com</organizationUrl>
+			<roles>
+				<role>developer</role>
+			</roles>
+		</developer>
+	</developers>
+	<scm>
+		<connection>scm:svn:https://moggido.googlecode.com/svn/moggido-engine/trunk</connection>
+		<developerConnection>scm:svn:https://moggido.googlecode.com/svn/moggido-engine/trunk</developerConnection>
+		<url>https://moggido.googlecode.com/svn/moggido-engine/trunk</url>
+	</scm>
+	<organization>
+		<name>moggido</name>
+		<url>http://www.moggido.com</url>
+	</organization>
+
+	<build>
+		<defaultGoal>install</defaultGoal>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<configuration>
+					<source>1.6</source>
+					<target>1.6</target>
+					<showDeprecation>true</showDeprecation>
+					<showWarnings>true</showWarnings>
+				</configuration>
+			</plugin>
+			<plugin>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<skipTests>true</skipTests>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
 </project>

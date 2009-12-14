@@ -1,0 +1,6 @@
+#!/bin/sh
+
+export JAVA_HOME=/opt/jdk1.6
+export M2_HOME=/opt/mvn
+export CATALINA_HOME=/opt/tomcat-5.5
+
