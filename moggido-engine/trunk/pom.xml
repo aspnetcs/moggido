@@ -7,12 +7,35 @@
   <version>1.0.0-SNAPSHOT</version>
   <name>moggido-engine</name>
   <url>http://www.moggido.com</url>
-  <dependencies>
-    <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-  </dependencies>
+  <developers>
+  	<developer>
+  		<id>mricardo</id>
+  		<name>Miguel Correia Ricardo</name>
+  		<email>miguelcricardo@gmail.com</email>
+  		<organization>moggido</organization>
+  		<organizationUrl>http://www.moggido.com</organizationUrl>
+  		<roles>
+  			<role>developer</role>
+  		</roles>
+  	</developer>
+  	<developer>
+  		<id>ccadete</id>
+  		<name>Carlos Cadete</name>
+  		<email>carloscadete@gmail.com</email>
+  		<organization>moggido</organization>
+  		<organizationUrl>http://www.moggido.com</organizationUrl>
+  		<roles>
+  			<role>developer</role>
+  		</roles>
+  	</developer>
+  </developers>
+  <scm>
+  	<connection>scm:svn:https://moggido.googlecode.com/svn/moggido-engine/trunk</connection>
+  	<developerConnection>scm:svn:https://moggido.googlecode.com/svn/moggido-engine/trunk</developerConnection>
+  	<url>https://moggido.googlecode.com/svn/moggido-engine/trunk</url>
+  </scm>
+  <organization>
+  	<name>moggido</name>
+  	<url>http://www.moggido.com</url>
+  </organization>
 </project>
