@@ -1,2 +1,16 @@
 Moggido Maven Repository is supported by DropBox. See https://www.dropbox.com.
 Ask for developers for a settings.xml with username and password.
+
+Default setting:
+Windows:
+Dropbox folder at location c:\My Dropbox
+
+To deploy artifacts not generated with maven, use the following command:
+
+  mvn deploy:deploy-file -Durl=file://C:/My%20Dropbox/Public/(snapshots|releases)
+						 -DrepositoryId=moggido-repo-(releases|snapshots) 
+                         -Dfile=(location to your file)
+                         -DgroupId=(groupId of deployed artifact)
+                         -DartifactId=(artifactId of deployed artifact)
+                         -Dversion=(version of deployed artifact)                        
+                         -Dpackaging=jar 
