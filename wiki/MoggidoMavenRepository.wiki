@@ -3,7 +3,7 @@
 
 = Introduction =
 
-Moggido is a new project with a low (no) budget, so we have to use all resources freely available to us. With that in mind, we needed a remote repository, which for that purpose, we used Dropbox system (see: http://www.dropbox.com). 
+Moggido is a new project with a low (no) budget, so we have to use all resources freely available to us. With that in mind, we needed a maven remote repository, for that purpose, we used Dropbox system (see: http://www.dropbox.com). 
 
 = Details =
 
