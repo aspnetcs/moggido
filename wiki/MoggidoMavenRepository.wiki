@@ -1,0 +1,10 @@
+#summary This page explains how to configure Maven repository
+#labels MavenRemoteRepository
+
+= Introduction =
+
+Moggido is a new project with a low (no) budget, so we have to use all resources freely available to us. With that in mind, we need a remote repository, which for that purpose, we use Dropbox (see: http://www.dropbox.com). 
+
+= Details =
+
+A DropBox account is associated with a specific user mail and password, that must be defined in the settings.xml of maven. There is a template settings.xml in svn, ready to be used, just fill the username/password entries. To obtain these entries, please send a mail to one of our developers. 
