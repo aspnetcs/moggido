@@ -57,5 +57,11 @@
 			<artifactId>mahout-core</artifactId>
 			<version>0.3-SNAPSHOT</version>
 		</dependency>
+		<!-- Beg: Testing dependencies -->
+		<dependency>
+			<groupId>junit</groupId>
+			<artifactId>junit</artifactId>
+		</dependency>
+		<!-- End: Testing dependencies -->
 	</dependencies>
 </project>
