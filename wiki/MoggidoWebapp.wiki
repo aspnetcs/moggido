@@ -1,0 +1,7 @@
+#summary Brief explanation of the Moggido webapp
+
+= Introduction =
+
+The Moggido webapp is based on GWT 2.0. The developers are using Eclipse IDE with the Google plugin for the creation of GWT applications.
+
+The app id of the application for the deployment in Google App Engine is moggido. To username/password of the Google App Engine are the same ones for accessing subversion repository. Ask the developers for more information.
