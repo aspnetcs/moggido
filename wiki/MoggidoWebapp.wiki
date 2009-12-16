@@ -5,4 +5,4 @@
 
 The *moggido webapp* is based on GWT 2.0. The developers are using Eclipse IDE with the Google plugin for the creation of GWT applications.
 
-The *Google App Engine* needs an application id for the deployment, in this case it is named _moggido_. To username/password of the Google App Engine is the same one for accessing *moggido* subversion repository. Ask the developers for more information.
+The *Google App Engine* needs an application id for the deployment, in this case it is named _moggido_. The username/password of the Google App Engine is the same one for accessing *moggido* subversion repository. Ask the developers for more information.
