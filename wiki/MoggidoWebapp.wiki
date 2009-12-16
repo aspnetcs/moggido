@@ -1,4 +1,5 @@
 #summary Brief explanation of the Moggido webapp
+#labels webapp,gwt
 
 = Introduction =
 
