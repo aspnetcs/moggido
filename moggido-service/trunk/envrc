@@ -1,0 +1,6 @@
+#!/bin/sh
+
+export JAVA_HOME=/cygdrive/c/Programas/Java/jdk1.6.0_16
+export M2_HOME=/cygdrive/c/Workspace/Applications/apache-maven-2.0.10
+export CATALINA_HOME=/cygdrive/c/Workspace/Applications/apache-tomcat-5.5.26
+
