@@ -51,11 +51,25 @@
 		<name>moggido</name>
 		<url>http://www.moggido.com</url>
 	</organization>
+
+	<build>
+		<plugins>
+			<plugin>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<configuration>
+					<skipTests>true</skipTests>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.mahout</groupId>
 			<artifactId>mahout-core</artifactId>
 			<version>0.3-SNAPSHOT</version>
+			<scope>compile</scope>
+
 		</dependency>
 		<!-- Beg: Testing dependencies -->
 		<dependency>

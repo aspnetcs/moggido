@@ -5,9 +5,7 @@ Description: [Description]
 
 
 14/12/2009: ccadete
-Description: Define the open source licenses applied to the project
-
-14/12/2009: ccadete
 Description: Add checkstyle plugin, pmd plugin, eclipse cleanup, eclipse format to the project
 			 para o moggido-docs/eclipse
+
 
