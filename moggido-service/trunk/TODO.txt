@@ -1,0 +1,43 @@
+
+
+
+
+
+
+To create GAE dependencies into maven repo:
+
+
+
+mvn install:install-file -Dfile=lib/appengine-tools-api.jar -DgroupId=com.google.appengine -DartifactId=appengine-tools-api -Dversion=1.3.0 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/agent/appengine-agent.jar -DgroupId=com.google.appengine -DartifactId=appengine-agent -Dversion=1.3.0 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/agent/appengine-agentimpl.jar -DgroupId=com.google.appengine -DartifactId=appengine-agentimpl -Dversion=1.3.0 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/impl/appengine-api.jar -DgroupId=com.google.appengine -DartifactId=appengine-api -Dversion=1.3.0 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/impl/appengine-api-stubs.jar -DgroupId=com.google.appengine -DartifactId=appengine-api-stubs -Dversion=1.3.0 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/impl/appengine-api-labs.jar -DgroupId=com.google.appengine -DartifactId=appengine-api-labs -Dversion=1.3.0 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/impl/appengine-local-runtime.jar -DgroupId=com.google.appengine -DartifactId=appengine-local-runtime -Dversion=1.3.0 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/impl/agent/appengine-agentruntime.jar -DgroupId=com.google.appengine -DartifactId=appengine-agentruntime -Dversion=1.3.0 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/shared/appengine-local-runtime-shared.jar -DgroupId=com.google.appengine -DartifactId=appengine-local-runtime-shared -Dversion=1.3.0 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/shared/geronimo-el_1.0_spec-1.0.1.jar -DgroupId=com.google.appengine -DartifactId=geronimo-el_1.0_spec-1.0.1 -Dversion=1.3.0 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/shared/geronimo-jsp_2.1_spec-1.0.1.jar -DgroupId=com.google.appengine -DartifactId=geronimo-jsp_2.1_spec-1.0.1 -Dversion=1.3.0 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/shared/geronimo-servlet_2.5_spec-1.2.jar -DgroupId=com.google.appengine -DartifactId=geronimo-servlet_2.5_spec-1.2 -Dversion=1.3.0 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/shared/geronimo-servlet_2.5_spec-1.2.jar -DgroupId=com.google.appengine -DartifactId=geronimo-servlet_2.5_spec-1.2 -Dversion=1.3.0 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/shared/jsp/repackaged-appengine-ant-1.6.5.jar -DgroupId=com.google.appengine -DartifactId=repackaged-appengine-ant -Dversion=1.6.5 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/shared/jsp/repackaged-appengine-ant-launcher-1.6.5.jar -DgroupId=com.google.appengine -DartifactId=repackaged-appengine-ant-launcher -Dversion=1.6.5 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/shared/jsp/repackaged-appengine-commons-el-1.0.jar -DgroupId=com.google.appengine -DartifactId=repackaged-appengine-commons-el -Dversion=1.0.0 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/shared/jsp/repackaged-appengine-commons-logging-1.1.1.jar -DgroupId=com.google.appengine -DartifactId=repackaged-appengine-commons-logging -Dversion=1.1.1 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/shared/jsp/repackaged-appengine-jasper-compiler-5.0.28.jar -DgroupId=com.google.appengine -DartifactId=repackaged-appengine-jasper-compiler -Dversion=5.0.28 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/shared/jsp/repackaged-appengine-jasper-runtime-5.0.28.jar -DgroupId=com.google.appengine -DartifactId=repackaged-appengine-jasper-runtime -Dversion=5.0.28 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/tools/jsp/repackaged-appengine-jakarta-jstl-1.1.2.jar -DgroupId=com.google.appengine -DartifactId=repackaged-appengine-jakarta-jstl -Dversion=1.1.2 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/tools/jsp/repackaged-appengine-jakarta-standard-1.1.2.jar -DgroupId=com.google.appengine -DartifactId=repackaged-appengine-jakarta-standard -Dversion=1.1.2 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/tools/orm/asm-3.1.jar -DgroupId=com.google.appengine -DartifactId=asm -Dversion=3.1.0 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/tools/orm/datanucleus-core-1.1.5.jar -DgroupId=com.google.appengine.orm -DartifactId=datanucleus-core -Dversion=1.1.5 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/tools/orm/datanucleus-enhancer-1.1.4.jar -DgroupId=com.google.appengine.orm -DartifactId=datanucleus-enhancer -Dversion=1.1.4 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/tools/orm/datanucleus-jpa-1.1.5.jar -DgroupId=com.google.appengine.orm -DartifactId=datanucleus-jpa -Dversion=1.1.5 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/tools/orm/geronimo-jpa_3.0_spec-1.1.1.jar -DgroupId=com.google.appengine -DartifactId=geronimo-jpa_3.0_spec -Dversion=1.1.1 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/tools/orm/geronimo-jta_1.1_spec-1.1.1.jar -DgroupId=com.google.appengine -DartifactId=geronimo-jta_1.1_spec -Dversion=1.1.1 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/tools/orm/jdo2-api-2.3-eb.jar -DgroupId=javax.jdo -DartifactId=jdo2-api -Dversion=2.3.0 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/user/appengine-api-labs-1.3.0.jar -DgroupId=com.google.appengine -DartifactId=appengine-api-labs -Dversion=1.3.0 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/user/appengine-api-1.0-sdk-1.3.0.jar -DgroupId=com.google.appengine -DartifactId=appengine-api-1.0-sdk -Dversion=1.3.0 -Dpackaging=jar -DgeneratePom=true
+mvn install:install-file -Dfile=lib/user/orm/datanucleus-appengine-1.0.4.1.final.jar -DgroupId=com.google.appengine.orm -DartifactId=datanucleus-appengine -Dversion=1.0.4 -Dpackaging=jar -DgeneratePom=true
+
+
