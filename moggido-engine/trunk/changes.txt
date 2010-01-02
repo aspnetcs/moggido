@@ -1,0 +1,9 @@
+
+
+
+
+02-01-2010: Results from the first implementation of SlopeOne recomendation based on mahout
+
+Evaluation result: 0,940326200(mean)
+
+

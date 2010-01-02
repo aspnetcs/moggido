@@ -38,6 +38,11 @@ public abstract class TasteTestCase {
         return new GenericDataModel(result);
     }
 
+    public static DataModel getDataModel() {
+        return getDataModel(new long[] {1, 2, 3, 4}, new Double[][] { {0.1, 0.3}, {0.2, 0.3, 0.3},
+            {0.4, 0.3, 0.5}, {0.7, 0.3, 0.8},});
+    }
+
     protected static boolean arrayContains(long[] array, long value) {
         for (long l : array) {
             if (l == value) {
