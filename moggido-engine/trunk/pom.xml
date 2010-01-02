@@ -69,8 +69,21 @@
 			<artifactId>mahout-core</artifactId>
 			<version>0.3-SNAPSHOT</version>
 			<scope>compile</scope>
-
 		</dependency>
+
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>1.4</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<version>1.5.8</version>
+		</dependency>
+
 		<!-- Beg: Testing dependencies -->
 		<dependency>
 			<groupId>junit</groupId>

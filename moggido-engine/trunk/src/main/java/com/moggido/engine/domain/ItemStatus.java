@@ -1,7 +1,7 @@
 package com.moggido.engine.domain;
 
 public enum ItemStatus {
-    ACTIVE(1), DISABLED(2);
+    ACTIVE(1), REMOVED(2);
 
     private final int status;
 

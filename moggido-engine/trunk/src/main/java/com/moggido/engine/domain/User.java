@@ -1,12 +1,16 @@
 package com.moggido.engine.domain;
 
+import java.util.Date;
+
 public class User {
     /** Id representation of the user */
-    private long userId;
+    private long id;
     /** Username of the user. It should be unique in the system */
     private String username;
     /** Password of the user */
     private String password;
+    /** Created on */
+    private Date createdOn;
     /** Status of the user */
     private UserStatus status;
     /** Image url profile */
@@ -17,15 +21,14 @@ public class User {
     private String apiKey;
 
     public User() {
-
     }
 
-    public long getUserId() {
-        return userId;
+    public long getId() {
+        return id;
     }
 
-    public void setUserId(long userId) {
-        this.userId = userId;
+    public void setid(long userId) {
+        this.id = userId;
     }
 
     public String getUsername() {
