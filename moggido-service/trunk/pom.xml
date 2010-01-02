@@ -126,12 +126,6 @@
 			<artifactId>moggido-engine</artifactId>
 			<version>1.0.0-SNAPSHOT</version>
 			<scope>compile</scope>
-			<exclusions>
-				<exclusion>
-					<groupId>asm</groupId>
-					<artifactId>asm</artifactId>
-				</exclusion>
-			</exclusions>
 		</dependency>
 
 		<dependency>
