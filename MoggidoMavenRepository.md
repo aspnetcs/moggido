@@ -1,0 +1,8 @@
+# Introduction #
+
+Moggido is a new project with a low (or in reality no) budget, so we have to use all resources freely available to us. With that in mind, we needed a maven remote repository so, for that purpose, we used Dropbox system (see: http://www.dropbox.com).
+
+# Details #
+
+A DropBox account is associated with a specific user mail and password, that must be defined in the settings.xml of maven. This file is located at ~/.m2 on Unix, or c:\Users\(your username)\.m2 on Windows (you may need to create it, if not existing).
+There is a template settings.xml commited in moggido svn repository (see: http://moggido.googlecode.com/svn/moggido-docs/trunk/maven/settings.xml), ready to be used, just fill the username/password entries. To obtain the previous entries, please send a mail to one of our developers.
